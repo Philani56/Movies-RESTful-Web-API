@@ -13,5 +13,6 @@ namespace RestApi.Models
         }
 
         public DbSet<Movie> Movies { get; set; } = null!;
+        public DbSet<Student> Students { get; set; } = null!;
     }
 }
